@@ -27,9 +27,7 @@ void InitApp(void)
 {
   char text[17];
   
-  OSCCON = 0x70;   // set internal oscillator to 8MHz
-  ANSELH = 0;      // configure all PORTB pins as digital
- 
+  ANSELH = 0;      // configure all PORTB pins as digital 
   TMR1IF = 0;     // clear Timer1 overflow interrupt flag bit
   RBIF   = 0;     // clear PORTB change interrupt flag bit
   TMR1IE = 1;     // enable Timer1 overflow interrupt

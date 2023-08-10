@@ -35,7 +35,6 @@ void main(void)
     /* Initialize I/O and Peripherals for application */
     InitApp();
 
-
     while(1)
     {
         char text[5];
@@ -64,6 +63,4 @@ void main(void)
 
         RBIE = 1;    // enable PORTB change interrupt
     }
-
 }
-

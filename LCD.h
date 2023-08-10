@@ -10,7 +10,6 @@
 
 #if defined(__XC)
     #include <xc.h>         /* XC8 General Include File */
-    #include <legacy/pic16f887_legacy.h>
 #elif defined(HI_TECH_C)
     #include <htc.h>        /* HiTech General Include File */
 #endif
